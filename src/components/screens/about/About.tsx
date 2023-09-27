@@ -3,7 +3,7 @@ import { NextPage } from 'next';
 
 const About: NextPage = () => {
   return (
-    <Layout>
+    <Layout title='About' description='some description'>
       <div>About</div>
     </Layout>
   );

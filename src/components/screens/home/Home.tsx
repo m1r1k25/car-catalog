@@ -5,7 +5,7 @@ import Layout from '@/components/layout/Layout';
 import { FC } from 'react';
 
 const Home: FC = () => {
-  return <Layout>Home page</Layout>;
+  return <Layout title='Home'>Home page</Layout>;
 };
 
 export default Home;

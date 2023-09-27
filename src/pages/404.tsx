@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const NotFound: NextPage = () => {
   return (
-    <Layout>
+    <Layout title='Not found'>
       <div style={{ textAlign: 'center', marginTop: '150px' }}>
         <Image src='/404_error.png' alt='not found' width='700' height='350' />
       </div>
