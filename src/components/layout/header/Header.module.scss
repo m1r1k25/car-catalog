@@ -4,7 +4,7 @@
   justify-content: center;
   width: 100%;
 
-  a {
+  > a {
     color: #fff;
     margin: 0 10px;
     transition: color 0.4s ease-in-out;
@@ -13,7 +13,7 @@
 
     &:hover,
     &.active {
-      color: #c353c3;
+      color: #3662ff;
     }
   }
 }
