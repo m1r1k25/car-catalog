@@ -15,7 +15,7 @@ const Header: FC = () => {
     <header className={styles.header}>
       {headers.map(({ path, title }) => {
         return (
-          <Link key='path' href={path} className={pathname === path ? styles.active : ''}>
+          <Link key={path} href={path} className={pathname === path ? styles.active : ''}>
             {title}
           </Link>
         );
